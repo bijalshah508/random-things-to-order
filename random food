@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+printf("enter num between 1 to 5");
+int num=0;
+scanf("%d",&num);
+switch (num)
+{
+case 1:
+printf("pasta \n200");
+ case 2:
+ printf("pizza \n 100");
+   case 3:
+   printf(" burger \n150");
+     case 4:
+      printf(" salad \n110");
+        case 5:
+        printf(" fries \n101");
+         default :printf(" invalid");
+}
+}
